@@ -1,9 +1,0 @@
-WaveSineGenerator.py allows us to generate the necessary .dat file to obtain waveforms of different signals in different time intervals
-
-Service.py file contains the following functions:
-* formation of phase signals by the method of symmetric components;
-* generation of instantaneous signal values;
-* filling in the cmtrd array for further writing to the csv file
-
-test_generator.py creates an oscillogram with multiple network operation modes
-
