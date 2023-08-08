@@ -7,21 +7,21 @@ td = 250e-6
 w = 100*m.pi
 cmtrd = list()
 
+# the exponential form of writing a complex number
 U = 57.7*m.exp(1j*np.radians(0))
 Ivn = 1*m.exp(1j*np.radians(0))
 Inn = -5*m.exp(1j*np.radians(30))
 
-# Phase signals
+# formation of the algebraic form of writing a complex number for each phase
 cIavn, cIbvn, cIcvn = seq_to_ph(Ivn, 0, 0)
 cIann, cIbnn, cIcnn = seq_to_ph(Inn, 0, 0)
 cUa, cUb, cUc = seq_to_ph(U, 0, 0)
 
-# the first period of time
+# Create different signals
 cIavn = 1*m.exp(1j*np.radians(0))
 cIbvn = 1.2*m.exp(1j*np.radians(230))
 cIcvn = 0.9*m.exp(1j*np.radians(150))
 
-# the second period of time
 cIann = -5.1*m.exp(1j*np.radians(10+30))
 cIbnn = -1*m.exp(1j*np.radians(250+30))
 cIcnn = -5*m.exp(1j*np.radians(105+30))

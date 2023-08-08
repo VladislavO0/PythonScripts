@@ -1,7 +1,7 @@
 import numpy as np
 import cmath as m
 
-"""Getting phase signals by sequence parameters"""
+"""formation of phase signals by the method of symmetric components"""
 def seq_to_ph(i1, i2, i3):
     a = m.exp(1j*2*m.pi/3)
     s = np.array([[1,1,1],[a**2, a,1],[a,a**2,1]])
