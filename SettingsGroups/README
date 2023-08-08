@@ -1,6 +1,6 @@
 This script implements:
 * changing settings in an excel file;
-* analyzing excel file by python;
+* analyzing Excel file by python;
 * decompressing a binary js file of device settings;
 * changing json file according to data from excel;
 * compressing a json file with new settings.
